@@ -3,8 +3,8 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
-  title: "Portfolio | Abdullah Qureshi",
-  description: "Full Stack Developer Portfolio",
+  title: "Abdullah Qureshi | Portfolio",
+  description: "Welcome to Abdullah Qureshi's portfolio - showcasing projects, skills, and expertise in full-stack development.",
 };
 
 export default function RootLayout({ children }) {
