@@ -101,16 +101,19 @@ export const sendMail = async (data) => {
     port: 465,
     secure: true, // true for 465, false for other ports
     auth: {
-      user: process.env.GMAIL_ID, // your Gmail address
-      pass: process.env.PASS_KEY, // your Gmail App Password
+      user: "mabdullahqureshi583@gmail.com", // your Gmail address
+      pass: "pzqm uzwn kepz xgxg", // your Gmail App Password
+      // user: process.env.GMAIL_ID, // your Gmail address
+      // pass: process.env.PASS_KEY, // your Gmail App Password
     },
   });
 
   try {
     // Send email with user-provided details
     const info = await transporter.sendMail({
-      from: `${name} <${email}>`, // Sender's email
-      to: process.env.GMAIL_ID, // Recipient's email (your email)
+      from: `${name} <${email}>`,
+      // to: process.env.GMAIL_ID,
+      to: "mabdullahqureshi583@gmail.com",
       subject: `New Contact Form Submission in Portfolio: ${subject}`, 
       html: emailHtmlContent, 
     });
