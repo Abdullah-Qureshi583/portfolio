@@ -74,18 +74,18 @@ export const sendMail = async (data) => {
         </style>
       </head>
       <body>
-        <div class="email-container">
-          <div class="email-header">
+        <div className="email-container">
+          <div className="email-header">
             <h1>New Message from ${name}</h1>
           </div>
-          <div class="email-body">
+          <div className="email-body">
             <h2>Message Details:</h2>
             <p><strong>Name:</strong> ${name}</p>
             <p><strong>Email:</strong> ${email}</p>
             <p><strong>Subject:</strong> ${subject}</p>
             <p><strong>Message:</strong></p>
             <p>${message}</p>
-            <a href="mailto:${email}" class="button">Reply to ${email}</a>
+            <a href="mailto:${email}" className="button">Reply to ${email}</a>
           </div>
 
         </div>
