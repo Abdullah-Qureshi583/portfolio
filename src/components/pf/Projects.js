@@ -6,6 +6,16 @@ const ProjectsSection = () => {
   const [showAll, setShowAll] = useState(false);
   const projects = [
     {
+      title: "SnapPin URL Shortener",
+      description:
+        "A full-stack URL shortener application with custom short URLs, detailed click analytics, and secure authentication using NextAuth.",
+      tags: ["Next.js", "Tailwind CSS", "NextAuth", "Vercel"],
+      liveLink: "https://snappin.vercel.app/",
+      githubLink:
+        "https://github.com/Abdullah-Qureshi583/Projects/tree/main/NextJsBasedProjects/snapPin",
+      category: "Fullstack",
+    },
+    {
       title: "Password Manager",
       description:
         "A secure password manager that helps users generate, store, and manage passwords with encryption and authentication features.",
@@ -51,8 +61,8 @@ const ProjectsSection = () => {
       description:
         "A modern and responsive portfolio website featuring smooth animations, and a well-organized layout to showcase my projects and skills.",
       tags: ["Next.js", "Tailwind CSS", "Node Mailer"],
-      liveLink: "#",
-      githubLink: "#",
+      liveLink: "https://aq--portfolio.vercel.app/",
+      githubLink: "https://github.com/Abdullah-Qureshi583/portfolio",
       category: "Frontend",
     },
     {
