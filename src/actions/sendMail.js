@@ -108,6 +108,7 @@ export const sendMail = async (data) => {
 
   try {
     // Send email with user-provided details
+    console.log("the email is ",process.env.GMAIL_ID, "and secret is ", process.env.PASS_KEY )
     const info = await transporter.sendMail({
       from: `${name} <${email}>`,
       to: process.env.GMAIL_ID,
