@@ -17,7 +17,7 @@ export default function Navbar() {
   useEffect(() => {
     const handleScroll = () => {
       if (!isClicked) {
-        if (window.scrollY > lastScrollY && window.scrollY > 30) {
+        if (window.scrollY > lastScrollY && window.scrollY > 2) {
           setIsVisible(false); // hide navbar on scroll down
         } else {
           setIsVisible(true); // show navbar on scroll up

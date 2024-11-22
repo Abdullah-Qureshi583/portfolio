@@ -101,14 +101,13 @@ export const sendMail = async (data) => {
     port: 465,
     secure: true, // true for 465, false for other ports
     auth: {
-      user: process.env.GMAIL_ID, // your Gmail address
-      pass: process.env.PASS_KEY, // your Gmail App Password
+      user: process.env.GMAIL_ID, 
+      pass: process.env.PASS_KEY, 
     },
   });
 
   try {
     // Send email with user-provided details
-    console.log("the email is ",process.env.GMAIL_ID, "and secret is ", process.env.PASS_KEY )
     const info = await transporter.sendMail({
       from: `${name} <${email}>`,
       to: process.env.GMAIL_ID,
