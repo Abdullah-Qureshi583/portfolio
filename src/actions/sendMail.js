@@ -103,8 +103,6 @@ export const sendMail = async (data) => {
     auth: {
       user: process.env.GMAIL_ID, // your Gmail address
       pass: process.env.PASS_KEY, // your Gmail App Password
-      // user: "mabdullahmubeen583@gmail.com", // your Gmail address
-      // pass: "oxoy vvfr jzgj pigy", // your Gmail App Password
     },
   });
 
@@ -113,7 +111,6 @@ export const sendMail = async (data) => {
     const info = await transporter.sendMail({
       from: `${name} <${email}>`,
       to: process.env.GMAIL_ID,
-      // to: "mabdullahmubeen583@gmail.com",
       subject: `New Contact Form Submission in Portfolio: ${subject}`, 
       html: emailHtmlContent, 
     });
