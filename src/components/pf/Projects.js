@@ -6,6 +6,17 @@ const ProjectsSection = () => {
   const [showAll, setShowAll] = useState(false);
   const projects = [
     {
+      title: "E-commerce Website",
+      description:
+        "A fully functional e-commerce platform with a user and admin dashboard, product filtering, add-to-cart, checkout, and Stripe payment integration, built with Next.js and Sanity.",
+      tags: ["Next.js", "Sanity", "Tailwind CSS", "Stripe", "Vercel"],
+      liveLink: "https://hekto-marketplace-builder.vercel.app/",
+      githubLink:
+        "https://github.com/Abdullah-Qureshi583/marketplace-builder-hackathon-2025",
+      category: "Fullstack",
+    },
+
+    {
       title: "SnapPin URL Shortener",
       description:
         "A full-stack URL shortener application with custom short URLs, detailed click analytics, and secure authentication using NextAuth.",

@@ -1,43 +1,3 @@
-// export default function About() {
-//   return (
-//     <section id="about" className="bg-zinc-300 py-20 ">
-//       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-//         <div className="lg:text-center">
-//           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-//             About Me
-//           </h2>
-//           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-//             I am a passionate full stack developer with 5 years of experience
-//             building web applications.
-//           </p>
-//         </div>
-
-//         <div className="mt-10">
-//           <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-//             <div className="relative">
-//               <h3 className="text-lg font-medium leading-6 text-gray-900">
-//                 Skills
-//               </h3>
-//               <p className="mt-2 text-base text-gray-500">
-//                 React, Next.js, Node.js, TypeScript, Python, SQL, MongoDB
-//               </p>
-//             </div>
-//             <div className="relative">
-//               <h3 className="text-lg font-medium leading-6 text-gray-900">
-//                 Experience
-//               </h3>
-//               <p className="mt-2 text-base text-gray-500">
-//                 Senior Developer at Tech Co (2020-Present)
-//                 <br />
-//                 Web Developer at Startup Inc (2018-2020)
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
 import React from "react";
 
 const About = () => {
@@ -64,13 +24,12 @@ const About = () => {
                 Hi, I&apos;m Abdullah Qureshi
               </h3>
               <p className="text-gray-300 text-justify leading-relaxed">
-                Enthusiastic Computer Science student at D.J. Science College
-                specializing in web development and AI technologies. Proficient
-                in React, Tailwind CSS, HTML, CSS, and JavaScript. Eager to
-                collaborate on innovative projects and leverage my skills in a
-                team setting. Passionate about Next.js, Generative AI, and the
-                Metaverse. Dedicated to expanding my expertise and contributing
-                to cutting-edge tech solutions.
+                Aspiring full-stack web developer specializing in Next.js,
+                React, and modern web technologies. Skilled in JavaScript,
+                TypeScript, and Tailwind CSS, with a strong passion for
+                Generative AI, Web 3.0, and the Metaverse. Always eager to
+                learn, collaborate on innovative projects, and contribute to
+                cutting-edge tech solutions.
               </p>
             </div>
 
